@@ -12,6 +12,8 @@ export default defineConfig({
       },
       injectRegister: 'auto',
 
+      includeAssets: ['android', 'ios', 'windows11'],
+
       includeAssets: ['vite.svg'],
 
       manifest: {
@@ -21,7 +23,7 @@ export default defineConfig({
         theme_color: '#ffffff',
         icons: [
           {
-            src: './public/vite.svg',
+            src: 'vite.svg',
             sizes: '192x192',
             type: 'image/png'
           },
